@@ -40,7 +40,8 @@ class Main {
 		$this->controller = new $this->controller;
 
 		// # Run Controller
-		call_user_func_array([$this->controller, $this->method], array_values($uri));
+		// call_user_func_array([$this->controller, $this->method], array_values($uri));
+		call_user_func_array([$this->controller, $this->method], [implode('/', $uri)]);
 
 	}
 

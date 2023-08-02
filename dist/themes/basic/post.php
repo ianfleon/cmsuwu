@@ -16,7 +16,7 @@
 		</ul>
 	</nav>
 
-	<?php $post = Post::current() ?>
+	<?php $post = Content::current() ?>
 
 	<h2><?= $post['judul'] ?></h2>
 	<p><?= $post['isi'] ?></p>

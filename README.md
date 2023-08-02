@@ -1,7 +1,9 @@
-# CEEMESUWU
+# CMSUWU
 
-30 Juli 2023
+30 Juli 2023 (12:25 WIB)
 
-12:25 WIB
+CMSUWU adalah sebuah Content Management System sederhana dengan tujuan akhir mengubah konten menjadi static (tanpa database).
 
-CMS Static Generator
+#### Soon Update Features
+
+- Permalinks

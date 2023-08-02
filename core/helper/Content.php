@@ -1,9 +1,20 @@
 <?php
 
-class Post {
+class Content {
 
 	public static function all()
 	{
+
+		$db = new SQLite3(DIR_ROOT.'/uwu.db');
+		
+		if (!$db) {
+			echo "Gagal terhubung..";
+		}
+
+		$result = $db->query('SELECT * FROM content_tb');
+		
+		var_dump($result->fetchArray());
+
 		$data = [
 			[
 			'judul' => 'Belajar membuat blog dengan CMSUWU',
@@ -18,6 +29,7 @@ class Post {
 
 	public static function current()
 	{
+		// var_dump($_SESSION);
 		return self::all()[0];
 	}
 

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+.btn-blue {
+    background: blue;
+    color: #fff;
+    padding: .52em;
+}
+
+.container {
+    width: 97%;
+    margin: auto;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: .52em;
+    margin: .5em 0;
+}
+
+textarea.form-input {
+    max-width: 100%;
+}
+
+.ml-auto { margin-left: auto; }
+
+.navbar {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.table {
+    width: 100%;
+    vertical-align: middle;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+.table thead {
+    background: #bbb;
+}
+
+.table td {
+    padding: .72rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1024px;
+    }
+}
